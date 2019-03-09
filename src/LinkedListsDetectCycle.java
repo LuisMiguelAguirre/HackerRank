@@ -1,16 +1,16 @@
 import java.util.HashSet;
 import java.util.Set;
 
-class Node {
+class Node2 {
     int data;
-    Node next;
+    Node2 next;
 }
 
 public class LinkedListsDetectCycle {
-    boolean hasCycle(Node head) {
+    boolean hasCycle(Node2 head) {
 
-        Node aux = head;
-        Set<Node> set = new HashSet<Node>();
+        Node2 aux = head;
+        Set<Node2> set = new HashSet<Node2>();
         boolean isClycled = false;
 
         while(aux!= null) {
